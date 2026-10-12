@@ -1,0 +1,9 @@
+{
+  "prices": {
+    "p5.4xlarge": 6.88,
+    "p5.48xlarge": 55.04,
+    "p5en.48xlarge": 63.296
+  },
+  "region": "us-east-1",
+  "fetched_at": "2026-10-05T13:39:19.765378+00:00"
+}

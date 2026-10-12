@@ -1,0 +1,1949 @@
+{
+  "collected_at": "2026-10-01T13:48:14.219813+00:00",
+  "queries": [
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 1
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 1
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 1,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 1
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 1
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 2,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 4,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 8,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5.48xlarge",
+      "count": 16,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 1,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 2,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 4,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 8,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5e.48xlarge",
+      "count": 16,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 1,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 2,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 4,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 8,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 24,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 48,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 72,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 96,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 120,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 144,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 168,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 192,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 216,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 240,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 264,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 288,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 312,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    },
+    {
+      "region": "us-east-1",
+      "instance_type": "p5en.48xlarge",
+      "count": 16,
+      "duration_hours": 336,
+      "start": "2026-10-01T14:00:00+00:00",
+      "end": "2026-10-23T20:00:00+00:00",
+      "n_offerings": 0
+    }
+  ],
+  "offerings": [
+    {
+      "CapacityBlockOfferingId": "cb-031130be39d76dcb8",
+      "InstanceType": "p5.48xlarge",
+      "AvailabilityZone": "us-east-1f",
+      "InstanceCount": 1,
+      "StartDate": "2026-10-17 11:30:00+00:00",
+      "EndDate": "2026-10-18 11:30:00+00:00",
+      "CapacityBlockDurationHours": 24,
+      "UpfrontFee": "996.6700",
+      "CurrencyCode": "USD",
+      "Tenancy": "default",
+      "Region": "us-east-1"
+    },
+    {
+      "CapacityBlockOfferingId": "cb-0aae9cdd89718e497",
+      "InstanceType": "p5.48xlarge",
+      "AvailabilityZone": "us-east-1f",
+      "InstanceCount": 1,
+      "StartDate": "2026-10-17 11:30:00+00:00",
+      "EndDate": "2026-10-19 11:30:00+00:00",
+      "CapacityBlockDurationHours": 48,
+      "UpfrontFee": "1993.3400",
+      "CurrencyCode": "USD",
+      "Tenancy": "default",
+      "Region": "us-east-1"
+    },
+    {
+      "CapacityBlockOfferingId": "cb-021c99513d3eafce0",
+      "InstanceType": "p5.48xlarge",
+      "AvailabilityZone": "us-east-1f",
+      "InstanceCount": 2,
+      "StartDate": "2026-10-17 11:30:00+00:00",
+      "EndDate": "2026-10-18 11:30:00+00:00",
+      "CapacityBlockDurationHours": 24,
+      "UpfrontFee": "1993.3400",
+      "CurrencyCode": "USD",
+      "Tenancy": "default",
+      "Region": "us-east-1"
+    },
+    {
+      "CapacityBlockOfferingId": "cb-0c50633e60beaadf9",
+      "InstanceType": "p5.48xlarge",
+      "AvailabilityZone": "us-east-1f",
+      "InstanceCount": 2,
+      "StartDate": "2026-10-17 11:30:00+00:00",
+      "EndDate": "2026-10-19 11:30:00+00:00",
+      "CapacityBlockDurationHours": 48,
+      "UpfrontFee": "3986.6900",
+      "CurrencyCode": "USD",
+      "Tenancy": "default",
+      "Region": "us-east-1"
+    }
+  ]
+}

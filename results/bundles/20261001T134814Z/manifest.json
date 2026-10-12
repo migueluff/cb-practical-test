@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-01T13:48:14.219813+00:00",
+  "t0": "2026-10-01T14:00:00+00:00",
+  "time_unit_minutes": 60,
+  "anchor": "2026-10-01T14:00:00+00:00",
+  "regions": [
+    "us-east-1"
+  ],
+  "input_file": "instances/echelon_768_relaxado_relaxado.json",
+  "groups": {
+    "P5": {
+      "instance_file": "instances/P5.json",
+      "copy_file": "instances/echelon_768_relaxado_relaxado_com_blocos.json",
+      "instance_types": [
+        "p5.48xlarge",
+        "p5e.48xlarge",
+        "p5en.48xlarge"
+      ],
+      "n_jobs": 85,
+      "n_offerings": 4,
+      "n_blocks": 4,
+      "n_blocks_by_type": {
+        "p5.48xlarge": 4
+      },
+      "n_dropped_useless": 0,
+      "block_map": {
+        "cb1": {
+          "CapacityBlockOfferingId": "cb-031130be39d76dcb8",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-10-17 11:30:00+00:00",
+          "EndDate": "2026-10-18 11:30:00+00:00",
+          "UpfrontFee": "996.6700",
+          "CurrencyCode": "USD"
+        },
+        "cb2": {
+          "CapacityBlockOfferingId": "cb-0aae9cdd89718e497",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-10-17 11:30:00+00:00",
+          "EndDate": "2026-10-19 11:30:00+00:00",
+          "UpfrontFee": "1993.3400",
+          "CurrencyCode": "USD"
+        },
+        "cb3": {
+          "CapacityBlockOfferingId": "cb-021c99513d3eafce0",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-10-17 11:30:00+00:00",
+          "EndDate": "2026-10-18 11:30:00+00:00",
+          "UpfrontFee": "1993.3400",
+          "CurrencyCode": "USD"
+        },
+        "cb4": {
+          "CapacityBlockOfferingId": "cb-0c50633e60beaadf9",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-10-17 11:30:00+00:00",
+          "EndDate": "2026-10-19 11:30:00+00:00",
+          "UpfrontFee": "3986.6900",
+          "CurrencyCode": "USD"
+        }
+      }
+    }
+  }
+}

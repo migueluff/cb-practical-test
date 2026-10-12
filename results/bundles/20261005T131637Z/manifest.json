@@ -1,0 +1,342 @@
+{
+  "created_at": "2026-10-05T13:16:37.805089+00:00",
+  "t0": "2026-10-05T14:00:00+00:00",
+  "time_unit_minutes": 60,
+  "anchor": "2026-10-05T14:00:00+00:00",
+  "regions": [
+    "us-east-1"
+  ],
+  "input_file": "instances/echelon_768_relaxado_relaxado.json",
+  "groups": {
+    "P5": {
+      "instance_file": "instances/P5.json",
+      "copy_file": "instances/echelon_768_relaxado_relaxado_com_blocos.json",
+      "instance_types": [
+        "p5.48xlarge",
+        "p5e.48xlarge",
+        "p5en.48xlarge"
+      ],
+      "n_jobs": 85,
+      "n_offerings": 28,
+      "n_blocks": 28,
+      "n_blocks_by_type": {
+        "p5.48xlarge": 20,
+        "p5en.48xlarge": 8
+      },
+      "deadline_mode": "last_block_end",
+      "deadline": "2026-11-30T11:00:00+00:00",
+      "n_dropped": 0,
+      "dropped": [],
+      "block_map": {
+        "cb1": {
+          "CapacityBlockOfferingId": "cb-084ba6fb7ed53a547",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-10-25 11:30:00+00:00",
+          "EndDate": "2026-10-26 11:30:00+00:00",
+          "UpfrontFee": "996.6700",
+          "CurrencyCode": "USD"
+        },
+        "cb2": {
+          "CapacityBlockOfferingId": "cb-004f0832a5b01ae11",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-10-25 11:30:00+00:00",
+          "EndDate": "2026-10-27 11:30:00+00:00",
+          "UpfrontFee": "1993.3400",
+          "CurrencyCode": "USD"
+        },
+        "cb3": {
+          "CapacityBlockOfferingId": "cb-08ec628a87c890e9d",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-10-25 11:30:00+00:00",
+          "EndDate": "2026-10-28 11:30:00+00:00",
+          "UpfrontFee": "2990.0200",
+          "CurrencyCode": "USD"
+        },
+        "cb4": {
+          "CapacityBlockOfferingId": "cb-03f18b03fa298d6ae",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-10-25 11:30:00+00:00",
+          "EndDate": "2026-10-26 11:30:00+00:00",
+          "UpfrontFee": "1993.3400",
+          "CurrencyCode": "USD"
+        },
+        "cb5": {
+          "CapacityBlockOfferingId": "cb-08ad68a8d140cf025",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-10-25 11:30:00+00:00",
+          "EndDate": "2026-10-27 11:30:00+00:00",
+          "UpfrontFee": "3986.6900",
+          "CurrencyCode": "USD"
+        },
+        "cb6": {
+          "CapacityBlockOfferingId": "cb-05e486b0b2fadc3e6",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-10-25 11:30:00+00:00",
+          "EndDate": "2026-10-28 11:30:00+00:00",
+          "UpfrontFee": "5980.0300",
+          "CurrencyCode": "USD"
+        },
+        "cb7": {
+          "CapacityBlockOfferingId": "cb-0c3e6cbe4c8bd0cca",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-10-26 11:30:00+00:00",
+          "EndDate": "2026-10-27 11:30:00+00:00",
+          "UpfrontFee": "3986.6900",
+          "CurrencyCode": "USD"
+        },
+        "cb8": {
+          "CapacityBlockOfferingId": "cb-03b3995a71691f006",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-11-12 11:30:00+00:00",
+          "EndDate": "2026-11-16 11:30:00+00:00",
+          "UpfrontFee": "3986.6900",
+          "CurrencyCode": "USD"
+        },
+        "cb9": {
+          "CapacityBlockOfferingId": "cb-05ed56e47260a9570",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-11-12 11:30:00+00:00",
+          "EndDate": "2026-11-17 11:30:00+00:00",
+          "UpfrontFee": "4983.3600",
+          "CurrencyCode": "USD"
+        },
+        "cb10": {
+          "CapacityBlockOfferingId": "cb-05d15d921694bedb5",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-11-12 11:30:00+00:00",
+          "EndDate": "2026-11-16 11:30:00+00:00",
+          "UpfrontFee": "7973.3800",
+          "CurrencyCode": "USD"
+        },
+        "cb11": {
+          "CapacityBlockOfferingId": "cb-0c94fa698b8546a94",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-11-12 11:30:00+00:00",
+          "EndDate": "2026-11-17 11:30:00+00:00",
+          "UpfrontFee": "9966.7200",
+          "CurrencyCode": "USD"
+        },
+        "cb12": {
+          "CapacityBlockOfferingId": "cb-040e7ad65da31d011",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-11-13 11:30:00+00:00",
+          "EndDate": "2026-11-15 11:30:00+00:00",
+          "UpfrontFee": "7973.3800",
+          "CurrencyCode": "USD"
+        },
+        "cb13": {
+          "CapacityBlockOfferingId": "cb-0c3ed70e0f5d332d8",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-11-13 11:30:00+00:00",
+          "EndDate": "2026-11-16 11:30:00+00:00",
+          "UpfrontFee": "11960.0600",
+          "CurrencyCode": "USD"
+        },
+        "cb14": {
+          "CapacityBlockOfferingId": "cb-07d740770ad50a9f5",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-11-13 11:30:00+00:00",
+          "EndDate": "2026-11-17 11:30:00+00:00",
+          "UpfrontFee": "15946.7500",
+          "CurrencyCode": "USD"
+        },
+        "cb15": {
+          "CapacityBlockOfferingId": "cb-0908f6b309bce9fd5",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-11-13 11:30:00+00:00",
+          "EndDate": "2026-11-18 11:30:00+00:00",
+          "UpfrontFee": "19933.4400",
+          "CurrencyCode": "USD"
+        },
+        "cb16": {
+          "CapacityBlockOfferingId": "cb-077c5cdd29d2d18aa",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-16 11:30:00+00:00",
+          "EndDate": "2026-11-17 11:30:00+00:00",
+          "UpfrontFee": "7973.3800",
+          "CurrencyCode": "USD"
+        },
+        "cb17": {
+          "CapacityBlockOfferingId": "cb-07887b0d8fac27442",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-16 11:30:00+00:00",
+          "EndDate": "2026-11-18 11:30:00+00:00",
+          "UpfrontFee": "15946.7500",
+          "CurrencyCode": "USD"
+        },
+        "cb18": {
+          "CapacityBlockOfferingId": "cb-0611957d998f34b55",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-16 11:30:00+00:00",
+          "EndDate": "2026-11-19 11:30:00+00:00",
+          "UpfrontFee": "23920.1300",
+          "CurrencyCode": "USD"
+        },
+        "cb19": {
+          "CapacityBlockOfferingId": "cb-00fae3e9d6ac914bd",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-16 11:30:00+00:00",
+          "EndDate": "2026-11-20 11:30:00+00:00",
+          "UpfrontFee": "31893.5000",
+          "CurrencyCode": "USD"
+        },
+        "cb20": {
+          "CapacityBlockOfferingId": "cb-026efede8a9f9e98f",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1f",
+          "InstanceType": "p5.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-16 11:30:00+00:00",
+          "EndDate": "2026-11-21 11:30:00+00:00",
+          "UpfrontFee": "39866.8800",
+          "CurrencyCode": "USD"
+        },
+        "cb21": {
+          "CapacityBlockOfferingId": "cb-091b78df6ecf1454a",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-29 11:30:00+00:00",
+          "UpfrontFee": "1318.0800",
+          "CurrencyCode": "USD"
+        },
+        "cb22": {
+          "CapacityBlockOfferingId": "cb-08946ada344063d08",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 1,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-30 11:30:00+00:00",
+          "UpfrontFee": "2636.1600",
+          "CurrencyCode": "USD"
+        },
+        "cb23": {
+          "CapacityBlockOfferingId": "cb-08f71577e4d6f4ac6",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-29 11:30:00+00:00",
+          "UpfrontFee": "2636.1600",
+          "CurrencyCode": "USD"
+        },
+        "cb24": {
+          "CapacityBlockOfferingId": "cb-0978a4a21214b0fd8",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 2,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-30 11:30:00+00:00",
+          "UpfrontFee": "5272.3200",
+          "CurrencyCode": "USD"
+        },
+        "cb25": {
+          "CapacityBlockOfferingId": "cb-0aeaf1d6234f685c6",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-29 11:30:00+00:00",
+          "UpfrontFee": "5272.3200",
+          "CurrencyCode": "USD"
+        },
+        "cb26": {
+          "CapacityBlockOfferingId": "cb-095ef448a0b80ed58",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 4,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-30 11:30:00+00:00",
+          "UpfrontFee": "10544.6400",
+          "CurrencyCode": "USD"
+        },
+        "cb27": {
+          "CapacityBlockOfferingId": "cb-088152813552c1fe5",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-29 11:30:00+00:00",
+          "UpfrontFee": "10544.6400",
+          "CurrencyCode": "USD"
+        },
+        "cb28": {
+          "CapacityBlockOfferingId": "cb-043571af5af248e53",
+          "Region": "us-east-1",
+          "AvailabilityZone": "us-east-1b",
+          "InstanceType": "p5en.48xlarge",
+          "InstanceCount": 8,
+          "StartDate": "2026-11-28 11:30:00+00:00",
+          "EndDate": "2026-11-30 11:30:00+00:00",
+          "UpfrontFee": "21089.2800",
+          "CurrencyCode": "USD"
+        }
+      }
+    }
+  }
+}

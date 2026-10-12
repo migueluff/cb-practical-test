@@ -1,0 +1,121 @@
+=== CapacityBlocks - Allocation Report ===
+Instance: instances/echelon_real_test/echelon_test_01.json
+Status: OPTIMAL
+Objective: 1078.5699999999993
+Solver time (s): 798.0547
+
+[Capacity Blocks Alocados]
+Total alocados: 2
+- cb2: janela=[2707..2995] M=8 cost=1993.34 gpu-time=2304
+- cb4: janela=[2707..2851] M=16 cost=1993.34 gpu-time=2304
+
+[Capacity Blocks Não Alocados]
+Total não alocados: 16
+- cb1: janela=[2707..2851] M=8 cost=996.67 gpu-time=1152
+- cb3: janela=[2707..3139] M=8 cost=2990.02 gpu-time=3456
+- cb5: janela=[2707..2995] M=16 cost=3986.69 gpu-time=4608
+- cb6: janela=[2707..3139] M=16 cost=5980.03 gpu-time=6912
+- cb7: janela=[2851..2995] M=32 cost=3986.69 gpu-time=4608
+- cb10: janela=[5299..6163] M=8 cost=5980.03 gpu-time=6912
+- cb11: janela=[5299..6307] M=8 cost=6976.7 gpu-time=8064
+- cb8: janela=[5299..5875] M=8 cost=3986.69 gpu-time=4608
+- cb9: janela=[5299..6019] M=8 cost=4983.36 gpu-time=5760
+- cb12: janela=[7603..7747] M=8 cost=1318.08 gpu-time=1152
+- cb13: janela=[7603..7891] M=8 cost=2636.16 gpu-time=2304
+- cb14: janela=[7603..8035] M=8 cost=3954.24 gpu-time=3456
+- cb15: janela=[7603..7747] M=16 cost=2636.16 gpu-time=2304
+- cb16: janela=[7603..7891] M=16 cost=5272.32 gpu-time=4608
+- cb17: janela=[7603..8035] M=16 cost=7908.48 gpu-time=6912
+- cb18: janela=[7603..7747] M=32 cost=5272.32 gpu-time=4608
+
+[Jobs Alocados]
+Total alocados: 85
+- J58 em cb2: [2707..2711] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2707
+- J75 em cb2: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J82 em cb2: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J10 em cb2: [2711..2715] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2711
+- J37 em cb2: [2711..2715] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2711
+- J5 em cb2: [2715..2719] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2715
+- J23 em cb2: [2715..2719] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2715
+- J24 em cb2: [2719..2723] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2719
+- J78 em cb2: [2723..2727] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2723
+- J18 em cb2: [2727..2731] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2727
+- J57 em cb2: [2731..2735] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2731
+- J29 em cb2: [2735..2739] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2735
+- J3 em cb2: [2739..2743] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2739
+- J83 em cb2: [2743..2747] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2743
+- J1 em cb2: [2747..2751] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2747
+- J0 em cb2: [2751..2755] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2751
+- J7 em cb2: [2751..2789] gpus=2 gpu-time=76 gain=85.49 wait_job_start=2751
+- J41 em cb2: [2751..2789] gpus=2 gpu-time=76 gain=85.49 wait_job_start=2751
+- J11 em cb2: [2755..2793] gpus=2 gpu-time=76 gain=85.49 wait_job_start=2755
+- J39 em cb2: [2755..2793] gpus=2 gpu-time=76 gain=85.49 wait_job_start=2755
+- J48 em cb2: [2789..2812] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2789
+- J15 em cb2: [2793..2816] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2793
+- J54 em cb2: [2812..2835] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2812
+- J60 em cb2: [2816..2839] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2816
+- J16 em cb2: [2835..2858] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2835
+- J46 em cb2: [2839..2862] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2839
+- J64 em cb2: [2862..2881] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2862
+- J52 em cb2: [2881..2900] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2881
+- J9 em cb2: [2900..2919] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2900
+- J34 em cb2: [2919..2938] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2919
+- J71 em cb2: [2938..2957] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2938
+- J2 em cb2: [2957..2976] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2957
+- J4 em cb2: [2976..2995] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2976
+- J8 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J13 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J19 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J27 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J45 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J61 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J76 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J77 em cb4: [2707..2711] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2707
+- J35 em cb4: [2711..2715] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2711
+- J51 em cb4: [2711..2715] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2711
+- J62 em cb4: [2711..2715] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2711
+- J65 em cb4: [2711..2715] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2711
+- J69 em cb4: [2711..2715] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2711
+- J81 em cb4: [2711..2715] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2711
+- J32 em cb4: [2715..2719] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2715
+- J50 em cb4: [2715..2719] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2715
+- J53 em cb4: [2715..2719] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2715
+- J84 em cb4: [2715..2719] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2715
+- J22 em cb4: [2719..2723] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2719
+- J28 em cb4: [2719..2723] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2719
+- J56 em cb4: [2719..2723] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2719
+- J42 em cb4: [2723..2727] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2723
+- J68 em cb4: [2723..2727] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2723
+- J14 em cb4: [2727..2731] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2727
+- J43 em cb4: [2727..2765] gpus=2 gpu-time=76 gain=85.49 wait_job_start=2727
+- J59 em cb4: [2727..2731] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2727
+- J72 em cb4: [2727..2765] gpus=2 gpu-time=76 gain=85.49 wait_job_start=2727
+- J6 em cb4: [2731..2735] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2731
+- J55 em cb4: [2731..2735] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2731
+- J49 em cb4: [2735..2739] gpus=2 gpu-time=8 gain=8.51 wait_job_start=2735
+- J70 em cb4: [2735..2739] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2735
+- J26 em cb4: [2739..2743] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2739
+- J30 em cb4: [2739..2743] gpus=4 gpu-time=16 gain=15.16 wait_job_start=2739
+- J25 em cb4: [2743..2766] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2743
+- J38 em cb4: [2743..2747] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2743
+- J74 em cb4: [2747..2751] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2747
+- J20 em cb4: [2751..2755] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2751
+- J44 em cb4: [2755..2759] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2755
+- J33 em cb4: [2759..2763] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2759
+- J79 em cb4: [2763..2767] gpus=8 gpu-time=32 gain=33.22 wait_job_start=2763
+- J12 em cb4: [2765..2788] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2765
+- J73 em cb4: [2766..2789] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2766
+- J31 em cb4: [2767..2790] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2767
+- J66 em cb4: [2767..2790] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2767
+- J63 em cb4: [2789..2812] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2789
+- J80 em cb4: [2789..2812] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2789
+- J36 em cb4: [2790..2813] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2790
+- J40 em cb4: [2790..2813] gpus=4 gpu-time=92 gain=105.47 wait_job_start=2790
+- J21 em cb4: [2812..2831] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2812
+- J67 em cb4: [2813..2832] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2813
+- J17 em cb4: [2831..2850] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2831
+- J47 em cb4: [2832..2851] gpus=8 gpu-time=152 gain=171.57 wait_job_start=2832
+
+[Jobs Não Alocados]
+Total não alocados: 0
+- Nenhum

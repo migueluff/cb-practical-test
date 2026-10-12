@@ -1,0 +1,1787 @@
+[
+  {
+    "jid": 0,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 1,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 2,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 3,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 4,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 5,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 6,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 7,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 38.0,
+    "gain": 85.49,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 8,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 9,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 10,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 11,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 38.0,
+    "gain": 85.49,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 12,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 13,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 14,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 15,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 16,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 17,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 18,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 19,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 20,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 21,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 22,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 23,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 24,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 25,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 26,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 27,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 28,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 29,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 30,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 31,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 32,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 33,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 34,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 35,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 36,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 37,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 38,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 39,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 38.0,
+    "gain": 85.49,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 40,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 41,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 38.0,
+    "gain": 85.49,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 42,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 43,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 38.0,
+    "gain": 85.49,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 44,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 45,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 46,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 47,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 48,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 49,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 50,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 51,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 52,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 53,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 54,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 55,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 56,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 57,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 58,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 59,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 60,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 61,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 62,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 63,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 64,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 65,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 66,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 67,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 68,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 69,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 70,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 71,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 19.0,
+    "gain": 171.57,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 72,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 38.0,
+    "gain": 85.49,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 73,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 74,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 75,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 76,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 77,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 78,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 79,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 80,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 23.0,
+    "gain": 105.47,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 81,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 82,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 2,
+    "proc_hours": 4.0,
+    "gain": 8.51,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 83,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 8,
+    "proc_hours": 4.0,
+    "gain": 33.22,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  },
+  {
+    "jid": 84,
+    "group": "P5",
+    "instance_types": [
+      "p5.48xlarge",
+      "p5e.48xlarge",
+      "p5en.48xlarge"
+    ],
+    "instances_by_type": {
+      "p5.48xlarge": 1,
+      "p5e.48xlarge": 1,
+      "p5en.48xlarge": 1
+    },
+    "gpus": 4,
+    "proc_hours": 4.0,
+    "gain": 15.16,
+    "submit": "2026-10-05T14:00:00+00:00",
+    "deadline": "2026-11-30T11:00:00+00:00",
+    "deadline_input": "2026-10-27T20:00:00+00:00",
+    "region": null
+  }
+]

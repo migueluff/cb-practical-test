@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-05T16:20:34.724666+00:00",
+  "t0": "2026-10-05T16:20:00+00:00",
+  "time_unit_minutes": 10,
+  "anchor": "2026-10-05T16:20:00+00:00",
+  "regions": [
+    "us-east-1"
+  ],
+  "input_file": "instances/echelon_768_relaxado_relaxado.json",
+  "groups": {
+    "P5_ALL": {
+      "instance_file": "instances/P5_ALL.json",
+      "copy_file": "instances/echelon_768_relaxado_relaxado_com_blocos.json",
+      "instance_types": [
+        "p5.48xlarge",
+        "p5e.48xlarge",
+        "p5en.48xlarge"
+      ],
+      "n_jobs": 85,
+      "n_offerings": 0,
+      "n_blocks": 0,
+      "n_blocks_by_type": {},
+      "deadline_mode": "last_block_end",
+      "deadline": null,
+      "n_dropped": 0,
+      "dropped": [],
+      "block_map": {}
+    }
+  }
+}
