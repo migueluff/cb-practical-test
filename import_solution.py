@@ -169,6 +169,8 @@ def main():
         return t0 + k * unit
 
     decision = {"decision_time": None, "bundle": str(bundle),
+                # momento da consulta das ofertas: referência comum para as esperas CB e on-demand
+                "query_time": manifest["created_at"],
                 "offerings_snapshot": str(bundle / "offerings_snapshot.json"),
                 "model": {"t0": manifest["t0"], "time_unit_minutes": manifest["time_unit_minutes"],
                           "per_group": {}},
@@ -222,7 +224,10 @@ def main():
         blk = blocks_by_id[s["block_id"]] if s else None
         if blk:   # tipo e nº de instâncias do bloco onde o modelo colocou o job
             s["instance_type"] = blk["instance_type"]
-            s["instances"] = j["instances_by_type"][blk["instance_type"]]
+            # o modelo não distingue compatibilidade por job: o tipo pode não ser candidato
+            s["instances"] = j["instances_by_type"].get(
+                blk["instance_type"],
+                -(-j["gpus"] // config.GPUS_PER_INSTANCE[blk["instance_type"]]))
         decision["jobs"].append({
             "job_id": str(j["jid"]), "group": j["group"],
             "region": blk["region"] if blk else (j.get("region") or config.DEFAULT_REGION),

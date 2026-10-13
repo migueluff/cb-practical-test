@@ -108,7 +108,7 @@ OFFERINGS_DIR = "results/offerings"
 #   "submit"   -> no tempo de submissão do job
 #   "cb_start" -> no início que o modelo atribuiu ao job no bloco (se escalonado)
 OD_START_POLICY = "submit"
-OD_RETRY_MINUTES = 15          # intervalo entre tentativas até o último início possível
+OD_RETRY_MINUTES = 30          # intervalo entre tentativas até o último início possível
 # "same_az": mesma AZ do bloco escolhido (só para jobs escalonados pelo modelo)
 # "region":  qualquer AZ da região onde o tipo é oferecido
 OD_MODES = ["same_az", "region"]
@@ -190,6 +190,11 @@ BUNDLES_DIR = "results/bundles"
 # "same_az": mesmo tipo e mesma AZ do bloco
 # "region":  mesmo tipo, qualquer AZ da região onde o tipo é oferecido
 BLOCK_MODES = ["same_az", "region"]
+# Como transformar os blocos escolhidos em pedidos de ODCR:
+#   "sum":       soma as instâncias de todos os blocos do mesmo tipo (uma ODCR com o
+#                total), tentando até o início do PRIMEIRO desses blocos
+#   "per_block": uma ODCR do tamanho de cada bloco, até o início dele
+BLOCK_AGGREGATION = "sum"
 # Tentativas continuam até o início do bloco + esta folga (0 = para no início do bloco)
 BLOCK_EXTRA_WAIT_HOURS = 0
 BLOCK_TASKS_FILE = "results/block_tasks.json"

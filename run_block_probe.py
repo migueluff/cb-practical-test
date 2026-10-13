@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""Teste por bloco: para cada bloco escolhido pelo modelo, tenta uma ODCR do
-MESMO tamanho (tipo e nº de instâncias), cancela na hora e para no primeiro
-sucesso. Sem sucesso, tenta de novo a cada OD_RETRY_MINUTES até o início do
+"""Teste por bloco: a partir dos blocos escolhidos pelo modelo, tenta uma ODCR
+do mesmo tipo com o nº de instâncias dos blocos (somado por tipo, ou um pedido
+por bloco: BLOCK_AGGREGATION), cancela na hora e para no primeiro sucesso. Sem
+sucesso, tenta de novo a cada OD_RETRY_MINUTES até o início do (primeiro)
 bloco (+ BLOCK_EXTRA_WAIT_HOURS).
 
 Sucesso em t significa: se a reserva tivesse sido mantida, o recurso on-demand
 equivalente ao bloco estaria garantido a partir de t.
 
 Métricas por bloco e modo (results/block_results.csv):
+  cb_wait_hours                consulta das ofertas -> início do bloco
+  od_wait_hours                consulta das ofertas -> ODCR conseguida (vazio = não conseguiu)
   wait_minutes                 tempo do início do teste até conseguir
   lead_hours_vs_block_start    início do bloco - momento em que conseguiu
                                (> 0: o on-demand ficou disponível antes do bloco)
@@ -46,12 +49,45 @@ HOUR = 3600.0
 # ---------------------------------------------------------------------------
 # Tarefas
 # ---------------------------------------------------------------------------
+def _demands(decision):
+    """Pedidos de ODCR a partir dos blocos escolhidos (ver BLOCK_AGGREGATION)."""
+    blocks = decision["blocks"]
+    if config.BLOCK_AGGREGATION == "per_block":
+        groups = [[b] for b in blocks]
+    elif config.BLOCK_AGGREGATION == "sum":
+        by_key = {}
+        for b in blocks:   # ODCR é de um único tipo: soma só blocos do mesmo tipo/região
+            by_key.setdefault((b["region"], b["instance_type"]), []).append(b)
+        groups = list(by_key.values())
+    else:
+        raise SystemExit(f"BLOCK_AGGREGATION desconhecido: {config.BLOCK_AGGREGATION}")
+    out = []
+    for g in groups:
+        starts = [datetime.fromisoformat(b["start"]) for b in g]
+        ends = [datetime.fromisoformat(b["end"]) for b in g]
+        out.append({
+            "block_id": "+".join(b["block_id"] for b in g),
+            "offering_id": "+".join(b.get("offering_id") or "" for b in g),
+            "region": g[0]["region"], "instance_type": g[0]["instance_type"],
+            "instances": sum(int(b["instance_count"]) for b in g),
+            "azs": sorted({b["az"] for b in g}),
+            "start": min(starts).isoformat(), "end": max(ends).isoformat(),
+            "upfront_fee": sum(float(b["upfront_fee"]) for b in g),
+            # instâncias-hora reservadas nos blocos (base do custo on-demand equivalente)
+            "instance_hours": sum(int(b["instance_count"]) * (e - s).total_seconds() / HOUR
+                                  for b, s, e in zip(g, starts, ends)),
+            "n_blocks": len(g),
+        })
+    return out
+
+
 def build_tasks(decision, now):
     tasks, cache = [], {}
     extra = timedelta(hours=config.BLOCK_EXTRA_WAIT_HOURS)
     if not decision["blocks"]:
         raise SystemExit("decision.json não tem blocos escolhidos; nada a testar.")
-    for b in decision["blocks"]:
+    query_time = decision.get("query_time") or decision["model"]["t0"]
+    for b in _demands(decision):
         itype = b["instance_type"]
         if itype not in config.PRICE_PER_INSTANCE_HOUR:
             raise SystemExit(f"Preço de {itype} ausente em PRICE_PER_INSTANCE_HOUR.")
@@ -59,18 +95,24 @@ def build_tasks(decision, now):
         start = datetime.fromisoformat(b["start"])
         for mode in config.BLOCK_MODES:
             if mode == "same_az":
-                pools = [{"az": b["az"], "az_id": azs.get(b["az"])}]
+                if len(b["azs"]) > 1:
+                    log(f"{b['block_id']}: blocos em AZs diferentes {b['azs']}; "
+                        f"modo same_az ignorado (use BLOCK_AGGREGATION='per_block')")
+                    continue
+                pools = [{"az": b["azs"][0], "az_id": azs.get(b["azs"][0])}]
             elif mode == "region":
                 pools = [{"az": az, "az_id": az_id} for az, az_id in azs.items()]
             else:
                 raise SystemExit(f"modo desconhecido em BLOCK_MODES: {mode}")
             tasks.append({
                 "task_id": f"{b['block_id']}:{mode}", "block_id": b["block_id"], "mode": mode,
-                "offering_id": b.get("offering_id"), "region": b["region"],
-                "instance_type": itype, "instances": int(b["instance_count"]),
-                "block_az": b["az"], "pools": pools,
+                "offering_id": b["offering_id"], "region": b["region"],
+                "instance_type": itype, "instances": b["instances"],
+                "n_blocks": b["n_blocks"], "block_az": ",".join(b["azs"]), "pools": pools,
                 "block_start": b["start"], "block_end": b["end"],
-                "block_upfront_fee": float(b["upfront_fee"]),
+                "block_instance_hours": b["instance_hours"],
+                "block_upfront_fee": b["upfront_fee"],
+                "query_time": query_time,
                 "give_up_at": (start + extra).isoformat(),
                 "next_attempt": now.isoformat(),
                 "status": "pending", "attempts": 0, "first_attempt_at": None,
@@ -142,26 +184,35 @@ def metrics(t):
     price = config.PRICE_PER_INSTANCE_HOUR[t["instance_type"]]
     n = t["instances"]
     bs, be = datetime.fromisoformat(t["block_start"]), datetime.fromisoformat(t["block_end"])
-    dur_h = (be - bs).total_seconds() / HOUR
-    od_cost = price * n * dur_h
+    q = datetime.fromisoformat(t["query_time"])
+    gpus = n * config.GPUS_PER_INSTANCE[t["instance_type"]]
+    od_cost = price * t["block_instance_hours"]
     m = {
-        "task_id": t["task_id"], "block_id": t["block_id"], "mode": t["mode"],
-        "instance_type": t["instance_type"], "instances": n, "block_az": t["block_az"],
+        "task_id": t["task_id"], "block_id": t["block_id"], "n_blocks": t["n_blocks"],
+        "mode": t["mode"], "region": t["region"], "instance_type": t["instance_type"],
+        "instances": n, "gpus": gpus, "block_az": t["block_az"],
         "status": t["status"], "attempts": t["attempts"],
+        "query_time": t["query_time"],
         "first_attempt_at": t["first_attempt_at"], "acquired_at": t["acquired_at"],
-        "acquired_az": t["acquired_az"], "block_start": t["block_start"],
-        "block_end": t["block_end"], "block_duration_hours": round(dur_h, 2),
+        "acquired_az": t["acquired_az"], "last_error": t["last_error"],
+        "block_start": t["block_start"], "block_end": t["block_end"],
+        "block_instance_hours": round(t["block_instance_hours"], 2),
+        # espera do Capacity Block: da consulta até o início do (primeiro) bloco
+        "cb_wait_hours": round((bs - q).total_seconds() / HOUR, 2),
+        # espera on-demand, também a partir da consulta (None = não conseguiu)
+        "od_wait_hours": None,
+        "wait_minutes": None, "lead_hours_vs_block_start": None,
         "block_upfront_fee": round(t["block_upfront_fee"], 2),
         "od_cost_block_duration": round(od_cost, 2),
         "od_over_block_cost_ratio": round(od_cost / t["block_upfront_fee"], 3)
         if t["block_upfront_fee"] else None,
-        "wait_minutes": None, "lead_hours_vs_block_start": None,
         "od_hold_cost_until_start": None,
     }
     if t["acquired_at"]:
         acq = datetime.fromisoformat(t["acquired_at"])
         first = datetime.fromisoformat(t["first_attempt_at"])
         lead_h = (bs - acq).total_seconds() / HOUR
+        m["od_wait_hours"] = round((acq - q).total_seconds() / HOUR, 2)
         m["wait_minutes"] = round((acq - first).total_seconds() / 60, 1)
         m["lead_hours_vs_block_start"] = round(lead_h, 2)
         m["od_hold_cost_until_start"] = round(price * n * max(lead_h, 0), 2)
@@ -170,6 +221,9 @@ def metrics(t):
 
 def summary(tasks):
     rows = [metrics(t) for t in tasks]
+    if not rows:
+        log("nenhuma tarefa; nada a resumir")
+        return
     with open(config.BLOCK_RESULTS_CSV, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
