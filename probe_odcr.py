@@ -84,7 +84,7 @@ def save_budget(budget):
 # ---------------------------------------------------------------------------
 # Sondagem
 # ---------------------------------------------------------------------------
-def _create(client, pool, instances, run_id, token):
+def _create(client, pool, instances, run_id, token, dry_run=False):
     end = utcnow() + timedelta(minutes=config.SAFETY_END_MINUTES)
     kw = dict(
         InstanceType=pool["instance_type"], InstancePlatform="Linux/UNIX",
@@ -101,6 +101,10 @@ def _create(client, pool, instances, run_id, token):
         kw["AvailabilityZoneId"] = pool["az_id"]
     else:
         kw["AvailabilityZone"] = pool["az"]
+    if dry_run:
+        # A AWS valida só a autorização e devolve DryRunOperation: nada é criado.
+        # Usado pelo check_permissions.py para testar a permissão sem gastar.
+        kw["DryRun"] = True
     # ClientToken torna a chamada idempotente: se a resposta se perder e o boto
     # repetir, a AWS devolve a MESMA reserva em vez de criar outra.
     return client.create_capacity_reservation(**kw)["CapacityReservation"]
